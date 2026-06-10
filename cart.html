@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BALI FRUITS | Cart</title>
+    <meta name="description" content="Review your BALI FRUITS cart and send an order by WhatsApp." />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="brand" href="index.html" aria-label="BALI FRUITS home">
+        <span class="brand-word">BALI FRUITS</span>
+        <span class="brand-leaf" aria-hidden="true"></span>
+      </a>
+      <a class="back-link" href="index.html#harvest">Continue shopping</a>
+      <span class="cart-pill">Cart <span data-cart-count>0</span></span>
+    </header>
+
+    <main>
+      <section class="cart-hero">
+        <p class="eyebrow">Your order</p>
+        <h1>Shopping cart</h1>
+        <p>Review quantities, then send the order to BALI FRUITS on WhatsApp.</p>
+      </section>
+
+      <section class="cart-layout" aria-label="Shopping cart">
+        <div class="cart-list-panel">
+          <div class="empty-cart" data-empty-cart hidden>
+            <h2>Your cart is empty.</h2>
+            <p>Add fruit or curated boxes before sending your order.</p>
+            <a href="index.html#harvest">Shop today's harvest</a>
+          </div>
+          <div class="cart-items" data-cart-items></div>
+        </div>
+
+        <aside class="cart-summary" data-cart-summary hidden>
+          <h2>Order summary</h2>
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <strong data-cart-subtotal>Rp 0</strong>
+          </div>
+          <div class="summary-row muted">
+            <span>Delivery</span>
+            <strong>Confirmed by zone</strong>
+          </div>
+          <div class="summary-total">
+            <span>Total</span>
+            <strong data-cart-total>Rp 0</strong>
+          </div>
+          <a class="whatsapp-button" href="#" target="_blank" rel="noopener" data-whatsapp-order>
+            Send order on WhatsApp
+          </a>
+          <button class="clear-button" type="button" data-clear-cart>Clear cart</button>
+        </aside>
+      </section>
+    </main>
+
+    <script src="cart.js"></script>
+    <script src="cart-page.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BALI FRUITS | Delivery Zones</title>
+    <meta
+      name="description"
+      content="BALI FRUITS delivery zones across Canggu, Seminyak, Sanur, Ubud, Jimbaran, Uluwatu and nearby Bali areas."
+    />
+    <link rel="stylesheet" href="delivery.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="brand" href="index.html" aria-label="BALI FRUITS home">
+        <span class="brand-word">BALI FRUITS</span>
+        <span class="brand-leaf" aria-hidden="true"></span>
+      </a>
+      <nav class="page-nav" aria-label="Delivery navigation">
+        <label class="language-select" aria-label="Language">
+          <select data-language-select>
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+          </select>
+        </label>
+        <a href="index.html#harvest" data-i18n="navHarvest">Harvest</a>
+        <a href="boxes.html" data-i18n="navBoxes">Boxes</a>
+        <a href="cart.html"><span data-i18n="navCart">Cart</span> <span data-cart-count>0</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="delivery-hero">
+        <div>
+          <p class="eyebrow" data-i18n="heroEyebrow">Delivery zones</p>
+          <h1 data-i18n="heroTitle">Fresh delivery across Bali by service zone.</h1>
+          <p data-i18n="heroCopy">
+            The map shows our current planning zones for daily produce delivery.
+            Exact timing and delivery fee are confirmed after address details.
+          </p>
+        </div>
+        <figure class="delivery-hero-image">
+          <img
+            src="assets/delivery/bf-delivery-hero.png"
+            alt="BALI FRUITS delivery across Bali"
+          />
+        </figure>
+      </section>
+
+      <section class="delivery-layout" aria-label="BALI FRUITS delivery zones">
+        <div class="zone-list">
+          <article class="zone-card zone-one-card">
+            <span data-i18n="zoneOneLabel">Zone 1</span>
+            <h2>Canggu, Berawa, Umalas, Pererenan</h2>
+            <p data-i18n="zoneOneCopy">Primary west-coast delivery area for homes, villas and cafes.</p>
+          </article>
+          <article class="zone-card zone-two-card">
+            <span data-i18n="zoneTwoLabel">Zone 2</span>
+            <h2>Seminyak, Kuta, Kerobokan, Legian</h2>
+            <p data-i18n="zoneTwoCopy">Central south-west route with strong daily delivery coverage.</p>
+          </article>
+          <article class="zone-card zone-three-card">
+            <span data-i18n="zoneThreeLabel">Zone 3</span>
+            <h2>Sanur, Denpasar, Renon</h2>
+            <p data-i18n="zoneThreeCopy">South-east city and beach-side route for scheduled delivery.</p>
+          </article>
+          <article class="zone-card zone-four-card">
+            <span data-i18n="zoneFourLabel">Zone 4</span>
+            <h2>Ubud, Gianyar, Sukawati, Sayan</h2>
+            <p data-i18n="zoneFourCopy">Central Bali route for villas, retreat spaces and family homes.</p>
+          </article>
+          <article class="zone-card zone-five-card">
+            <span data-i18n="zoneFiveLabel">Zone 5</span>
+            <h2>Jimbaran, Uluwatu, Pecatu, Ungasan, Nusa Dua</h2>
+            <p data-i18n="zoneFiveCopy">Southern peninsula route for larger basket and box deliveries.</p>
+          </article>
+        </div>
+
+        <aside class="map-panel" aria-label="Stylized Bali delivery map">
+          <div class="map-title-row">
+            <div>
+              <p class="eyebrow" data-i18n="mapEyebrow">BALI FRUITS map</p>
+              <h2 data-i18n="mapTitle">Zone 1-5 coverage</h2>
+            </div>
+            <span data-i18n="mapBadge">Service map</span>
+          </div>
+
+          <img
+            class="bali-map-image"
+            src="assets/delivery/bf-delivery-map-en.png"
+            data-map-en="assets/delivery/bf-delivery-map-en.png"
+            data-map-ru="assets/delivery/bf-delivery-map-ru.png"
+            alt="BALI FRUITS delivery zones map"
+            data-delivery-map
+          />
+
+          <p class="map-note" data-i18n="mapNote">
+            Stylized delivery map for frontend planning. Final route timing depends on exact address and daily delivery schedule.
+          </p>
+        </aside>
+      </section>
+    </main>
+
+    <script src="cart.js"></script>
+    <script src="delivery.js"></script>
+  </body>
+</html>

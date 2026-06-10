@@ -1,0 +1,4 @@
+.codex/
+*.log
+server-err.txt
+server-out.txt

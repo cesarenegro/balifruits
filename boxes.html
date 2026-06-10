@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BALI FRUITS | Curated Fresh Boxes</title>
+    <meta
+      name="description"
+      content="Curated fresh boxes for homes, villas and healthy weekly routines across Bali."
+    />
+    <link rel="stylesheet" href="boxes.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="brand" href="index.html" aria-label="BALI FRUITS home">
+        <span class="brand-word">BALI FRUITS</span>
+        <span class="brand-leaf" aria-hidden="true"></span>
+      </a>
+      <label class="language-select" aria-label="Language">
+        <select data-language-select>
+          <option value="en">EN</option>
+          <option value="ru">RU</option>
+        </select>
+      </label>
+      <a class="back-link" href="index.html#boxes" data-i18n="backToShop">Back to shop</a>
+      <a class="cart-button" href="cart.html" aria-label="Open cart">
+        <span data-i18n="cartLabel">Cart</span> <span data-cart-count>0</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="box-hero">
+        <img
+          data-boxes-hero-image
+          src="assets/boxes/bf-boxes-hero.png"
+          alt="BALI FRUITS curated fresh boxes with tropical fruit, family produce and greens"
+        />
+      </section>
+
+      <section class="box-card-grid" aria-label="Fresh box options">
+        <article class="box-card">
+          <figure class="box-image-slot">
+            <img
+              src="assets/boxes/bf-box-01.png"
+              alt="Tropical Fruit Box packed with mango, papaya, pineapple, bananas and seasonal fruit"
+            />
+          </figure>
+          <div class="box-card-copy">
+            <span class="box-number">01</span>
+            <h2 data-i18n="boxOneTitle">Tropical Fruit Box</h2>
+            <p data-i18n="boxOneCopy">Mango, papaya, pineapple, bananas and seasonal specials.</p>
+            <p class="best-for" data-i18n="boxOneBest">Best for: breakfast, villas, guests, daily fruit table.</p>
+            <div class="box-meta">
+              <span>Rp 285.000</span>
+              <span data-i18n="boxOneWeight">Approx. 5 kg box</span>
+            </div>
+            <button
+              class="add-cart-button"
+              type="button"
+              data-add-box
+              data-cart-id="box-tropical"
+              data-cart-name="Tropical Fruit Box"
+              data-cart-description="Mango, papaya, pineapple, bananas and seasonal specials."
+              data-cart-unit="Approx. 5 kg box"
+              data-cart-image="assets/boxes/bf-box-01.png"
+              data-cart-price="285000"
+            >
+              <span data-i18n="addToCart">Add to cart</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="box-card">
+          <figure class="box-image-slot">
+            <img
+              src="assets/boxes/bf-box-02.png"
+              alt="Family Produce Box packed with vegetables, herbs, avocado and fruit"
+            />
+          </figure>
+          <div class="box-card-copy">
+            <span class="box-number">02</span>
+            <h2 data-i18n="boxTwoTitle">Family Produce Box</h2>
+            <p data-i18n="boxTwoCopy">Fruit, vegetables and herbs for easy weekly cooking.</p>
+            <p class="best-for" data-i18n="boxTwoBest">Best for: families, expat homes, villa kitchens.</p>
+            <div class="box-meta">
+              <span>Rp 365.000</span>
+              <span data-i18n="boxTwoWeight">Approx. 7 kg box</span>
+            </div>
+            <button
+              class="add-cart-button"
+              type="button"
+              data-add-box
+              data-cart-id="box-family"
+              data-cart-name="Family Produce Box"
+              data-cart-description="Fruit, vegetables and herbs for easy weekly cooking."
+              data-cart-unit="Approx. 7 kg box"
+              data-cart-image="assets/boxes/bf-box-02.png"
+              data-cart-price="365000"
+            >
+              <span data-i18n="addToCart">Add to cart</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="box-card">
+          <figure class="box-image-slot">
+            <img
+              src="assets/boxes/bf-box-03.png"
+              alt="Greens and Smoothie Box packed with leafy greens, avocado, citrus and smoothie fruit"
+            />
+          </figure>
+          <div class="box-card-copy">
+            <span class="box-number">03</span>
+            <h2 data-i18n="boxThreeTitle">Greens & Smoothie Box</h2>
+            <p data-i18n="boxThreeCopy">Leafy greens, avocado, citrus and smoothie-friendly fruit.</p>
+            <p class="best-for" data-i18n="boxThreeBest">Best for: smoothies, wellness routines, clean breakfast.</p>
+            <div class="box-meta">
+              <span>Rp 315.000</span>
+              <span data-i18n="boxThreeWeight">Approx. 5.5 kg box</span>
+            </div>
+            <button
+              class="add-cart-button"
+              type="button"
+              data-add-box
+              data-cart-id="box-greens"
+              data-cart-name="Greens & Smoothie Box"
+              data-cart-description="Leafy greens, avocado, citrus and smoothie-friendly fruit."
+              data-cart-unit="Approx. 5.5 kg box"
+              data-cart-image="assets/boxes/bf-box-03.png"
+              data-cart-price="315000"
+            >
+              <span data-i18n="addToCart">Add to cart</span>
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="box-footer">
+      <p data-i18n="footerOne">From Bali gardens to your table.</p>
+      <p data-i18n="footerTwo">Fresh delivery across Bali.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+    <script src="boxes.js"></script>
+  </body>
+</html>
