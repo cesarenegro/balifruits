@@ -10,6 +10,8 @@ const translations = {
     navHarvest: "Today's Harvest",
     navBoxes: "Boxes",
     navDelivery: "Delivery",
+    navSources: "Sources",
+    navFaq: "FAQ",
     zoneCanggu: "Canggu",
     heroEyebrow: "Fresh delivery across Bali",
     heroTitle: "From Bali gardens to your table.",
@@ -40,6 +42,7 @@ const translations = {
     sourceEyebrow: "Source clarity",
     sourceTitle: "Selected from Bali growers and trusted local suppliers.",
     sourceCopy: "Product cards keep the sourcing language honest. When an exact farm is not confirmed, the frontend says so clearly.",
+    sourcePageLink: "Open sourcing page",
     deliveryEyebrow: "Delivery zones",
     deliveryTitle: "Canggu, Berawa, Pererenan, Seminyak, Sanur and Ubud.",
     deliveryCopy: "Other areas can be handled by schedule as the delivery network expands.",
@@ -51,6 +54,7 @@ const translations = {
     faqTwoCopy: "Kraft boxes, careful packing and minimal plastic where produce allows.",
     faqThreeTitle: "Support",
     faqThreeCopy: "WhatsApp-friendly ordering and delivery updates for Bali households and villas.",
+    faqPageLink: "Read all FAQs",
     footerCopy: "Fresh delivery across Bali.",
     mobileHome: "Home",
     mobileShop: "Shop",
@@ -65,6 +69,8 @@ const translations = {
     navHarvest: "Сегодняшний урожай",
     navBoxes: "Наборы",
     navDelivery: "Доставка",
+    navSources: "Источники",
+    navFaq: "FAQ",
     zoneCanggu: "Чангу",
     heroEyebrow: "Свежая доставка по Бали",
     heroTitle: "Из садов Бали к вашему столу.",
@@ -95,6 +101,7 @@ const translations = {
     sourceEyebrow: "Прозрачность источника",
     sourceTitle: "Отобрано у балийских производителей и надежных местных поставщиков.",
     sourceCopy: "Карточки продуктов используют честные формулировки. Если конкретная ферма не подтверждена, интерфейс говорит об этом прямо.",
+    sourcePageLink: "Открыть страницу источников",
     deliveryEyebrow: "Зоны доставки",
     deliveryTitle: "Чангу, Берава, Переренан, Семиньяк, Санур и Убуд.",
     deliveryCopy: "Другие районы можно обслуживать по расписанию по мере расширения доставки.",
@@ -106,6 +113,7 @@ const translations = {
     faqTwoCopy: "Крафтовые коробки, аккуратная упаковка и минимум пластика там, где это возможно.",
     faqThreeTitle: "Поддержка",
     faqThreeCopy: "Удобные обновления заказа и доставки через WhatsApp для домов и вилл на Бали.",
+    faqPageLink: "Открыть все FAQ",
     footerCopy: "Свежая доставка по Бали.",
     mobileHome: "Главная",
     mobileShop: "Магазин",
@@ -601,6 +609,10 @@ function getInitialLanguage() {
 }
 
 function updateHeader() {
+  if (!header) {
+    return;
+  }
+
   header.classList.toggle("is-scrolled", window.scrollY > 24);
 }
 
@@ -609,7 +621,11 @@ function translateStaticContent() {
 
   document.documentElement.lang = currentLanguage;
   document.title = dictionary.title;
-  document.querySelector('meta[name="description"]').setAttribute("content", dictionary.metaDescription);
+  const description = document.querySelector('meta[name="description"]');
+
+  if (description) {
+    description.setAttribute("content", dictionary.metaDescription);
+  }
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
@@ -618,6 +634,10 @@ function translateStaticContent() {
 }
 
 function renderCatalog() {
+  if (!catalog) {
+    return;
+  }
+
   const dictionary = translations[currentLanguage];
 
   catalog.innerHTML = products
@@ -662,16 +682,20 @@ function renderCatalog() {
 function setLanguage(language) {
   currentLanguage = normalizeLanguage(language);
   localStorage.setItem("baliFruitsLanguage", currentLanguage);
-  languageSelect.value = currentLanguage;
+  if (languageSelect) {
+    languageSelect.value = currentLanguage;
+  }
   translateStaticContent();
   renderCatalog();
 }
 
 window.addEventListener("scroll", updateHeader, { passive: true });
 
-languageSelect.addEventListener("change", (event) => {
-  setLanguage(event.target.value);
-});
+if (languageSelect) {
+  languageSelect.addEventListener("change", (event) => {
+    setLanguage(event.target.value);
+  });
+}
 
 document.addEventListener("click", (event) => {
   const button = event.target.closest("[data-add-item]");
@@ -693,4 +717,6 @@ document.addEventListener("click", (event) => {
 
 updateHeader();
 setLanguage(currentLanguage);
-BaliCart.updateCartBadges();
+if (window.BaliCart) {
+  BaliCart.updateCartBadges();
+}

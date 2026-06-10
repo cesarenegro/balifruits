@@ -117,6 +117,13 @@ svg {
   opacity: 1;
 }
 
+.desktop-nav a[aria-current="page"] {
+  opacity: 1;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+
 .header-actions {
   display: flex;
   align-items: center;
