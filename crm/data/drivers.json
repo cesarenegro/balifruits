@@ -1,0 +1,23 @@
+[
+  {
+    "id": "driver-1",
+    "name": "Gede Go-Send",
+    "whatsapp": "+6281299998888",
+    "status": "Active",
+    "vehicle": "Scooter"
+  },
+  {
+    "id": "driver-2",
+    "name": "Wayan Delivery",
+    "whatsapp": "+6281377776666",
+    "status": "Active",
+    "vehicle": "Car"
+  },
+  {
+    "id": "driver-3",
+    "name": "Made Fruits",
+    "whatsapp": "+6281955554444",
+    "status": "Active",
+    "vehicle": "Scooter"
+  }
+]

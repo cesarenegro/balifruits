@@ -1,0 +1,57 @@
+[
+  {
+    "id": "order-y7e1j6r92",
+    "orderNumber": "BF-WEB-2755",
+    "clientName": "Wayan Test",
+    "whatsapp": "+62 812 9999 8888",
+    "deliveryZone": "Ubud",
+    "deliveryAddress": "Jl. Raya Ubud No. 12",
+    "deliveryDate": "2026-06-15",
+    "timeWindow": "13:00 - 16:00",
+    "products": [
+      {
+        "name": "Avocado Mentega",
+        "quantity": 1,
+        "unit": "1 kg",
+        "price": 55000
+      },
+      {
+        "name": "Grande Mango Harum Manis",
+        "quantity": 1,
+        "unit": "1 kg",
+        "price": 42000
+      }
+    ],
+    "subtotal": 97000,
+    "deliveryFee": 40000,
+    "discount": 0,
+    "totalAmount": 137000,
+    "paymentStatus": "Pending",
+    "deliveryStatus": "Scheduled",
+    "issue": "None",
+    "stage": "Completed",
+    "notes": "Placed via website checkout. Selected Payment: Stripe.",
+    "lastUpdate": "2026-06-14T00:16:49.921Z"
+  },
+  {
+    "orderNumber": "BF-1002",
+    "clientName": "Banda ",
+    "whatsapp": "+62585225456",
+    "deliveryZone": "Sanur",
+    "deliveryAddress": "sanur",
+    "deliveryDate": "2026-06-14",
+    "timeWindow": "",
+    "products": [],
+    "subtotal": 0,
+    "deliveryFee": 30000,
+    "discount": 0,
+    "totalAmount": 30000,
+    "paymentStatus": "Pending",
+    "deliveryStatus": "Scheduled",
+    "issue": "None",
+    "stage": "Confirmed",
+    "notes": "",
+    "lastUpdate": "2026-06-14T08:57:45.854Z",
+    "id": "orders-qv8k8twwl"
+  }
+]

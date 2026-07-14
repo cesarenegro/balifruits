@@ -1,0 +1,1119 @@
+# BALI FRUITS — Lightweight CRM Specification for Development
+
+## 1. Project Goal
+
+Build a very light, simple, private CRM for the internal BALI FRUITS team.
+
+The CRM is not a complex enterprise CRM, not an ERP, and not an accounting system.
+
+Its goal is to help staff manage:
+
+* WhatsApp and email inquiries
+* Customer orders
+* Delivery operations
+* Supplier price lists
+* Supplier purchase requests
+* Product availability
+* Packaging and marketing material stock
+* Basic order and invoice PDFs
+
+The CRM must be simple enough for staff to use from a phone while working in the field, handling suppliers, packaging, or deliveries.
+
+---
+
+# 2. Non-Negotiable Guardrails
+
+## 2.1 Keep the CRM Light
+
+Do not create too many separate modules.
+
+The CRM must remain simple.
+
+Only create modules that are used weekly.
+
+If a feature is not operationally useful every week, do not include it in the MVP.
+
+## 2.2 Always Show the Workflow Visually
+
+Every main module view must always show a clear graphic pipeline at the top of the page.
+
+This is mandatory.
+
+The user should always understand:
+
+* What step they are in
+* What was already done
+* What is missing
+* What the next action is
+
+The workflow must be visual, large, and easy to read.
+
+Use a card-based stepper, pipeline ribbon, or Mermaid-like visual flow.
+
+Do not hide the workflow in documentation, tooltips, or help pages.
+
+## 2.3 One Screen per Task
+
+Avoid deep navigation.
+
+Each main task should happen on one screen.
+
+Do not create complex submenus.
+
+## 2.4 Card-Based Interface
+
+Use large readable cards.
+
+Avoid:
+
+* Small buttons
+* Dense tables
+* Too many fields
+* Complex filters
+* Technical labels
+* Crowded dashboards
+* Multi-step hidden forms
+
+Use:
+
+* Large status cards
+* Large action buttons
+* Clear next-action labels
+* Simple color signals
+* Mobile-friendly spacing
+
+## 2.5 Paste-and-Parse First
+
+Staff must be able to paste a raw WhatsApp or email message.
+
+The system should extract the useful data automatically and show a review card.
+
+No routine manual data-entry form should be required for normal messages.
+
+## 2.6 Manual + Twilio Ingestion
+
+The system must support both:
+
+1. Manual copy/paste ingestion
+2. WhatsApp ingestion through Twilio
+
+Current status:
+
+* Twilio is not yet set up
+* WhatsApp Business approval is not yet set up
+
+Therefore, the system must work first in Manual Mode and later support Twilio Mode without changing the staff interface.
+
+## 2.7 Brand Identity
+
+Use BALI FRUITS colors throughout:
+
+* Forest Green: `#173D2B`
+* Mint: `#8FD6BF`
+* Cream: `#F7F3E8`
+* Orange CTA: `#F5A623`
+
+General feeling:
+
+* Fresh
+* Clean
+* Natural
+* Premium but simple
+* Not supermarket-style
+* Not corporate-heavy
+
+---
+
+# 3. Final MVP Menu
+
+Use only these main modules:
+
+1. Dashboard
+2. Inbox
+3. Orders
+4. Delivery
+5. Products & Suppliers
+6. Inventory & Materials
+7. Settings
+
+Do not create separate main modules for:
+
+* Clients
+* Purchase Orders
+* Reports
+* Marketing Materials
+* Supplier Invoices
+* Accounting
+
+These functions should exist inside the relevant main modules.
+
+Example:
+
+* Clients are created from Inbox and Orders
+* Purchase requests live inside Products & Suppliers
+* Marketing materials live inside Inventory & Materials
+* Basic reports appear as dashboard cards, not as a separate heavy module
+
+---
+
+# 4. Global Layout Rule
+
+Every main view must follow this structure:
+
+## Top Area
+
+Large visual workflow pipeline.
+
+## Main Area
+
+Large task cards.
+
+## Action Area
+
+Few large buttons for the next useful action.
+
+## Example Structure
+
+```mermaid
+flowchart LR
+A[Message] --> B[Order]
+B --> C[Products]
+C --> D[Packaging]
+D --> E[Delivery]
+E --> F[Payment]
+F --> G[Completed]
+```
+
+In the actual UI, do not show raw Mermaid code.
+
+Render this as a clean horizontal or vertical visual card pipeline.
+
+On mobile, the pipeline can become a vertical step list.
+
+---
+
+# 5. Module 1 — Dashboard
+
+## Purpose
+
+The Dashboard shows what needs attention today.
+
+It is not a reporting page.
+
+It is an operations control page.
+
+## Mandatory Workflow at Top
+
+```mermaid
+flowchart LR
+A[Message] --> B[Order] --> C[Products] --> D[Packaging] --> E[Delivery] --> F[Payment] --> G[Done]
+```
+
+## Dashboard Cards
+
+Show large cards only:
+
+* New Messages
+* Orders Today
+* Delayed Orders
+* Missing Products
+* Deliveries Today
+* Payments Pending
+* Supplier Issues
+* Low Materials
+
+Each card opens the related task.
+
+## Dashboard Card Example
+
+Title: Orders Today
+Number: 12
+Status: 3 need attention
+Action: Open Orders
+
+## Dashboard Rules
+
+Do not show large tables here.
+
+Do not overload with charts.
+
+Do not add unnecessary analytics.
+
+This page is only for daily operations.
+
+---
+
+# 6. Module 2 — Inbox
+
+## Purpose
+
+Inbox manages all incoming communication.
+
+Sources:
+
+* Manual WhatsApp paste
+* Manual email paste
+* WhatsApp through Twilio, future phase
+
+Both manual and Twilio messages must generate the same Inbox Card.
+
+## Mandatory Workflow at Top
+
+```mermaid
+flowchart LR
+A[Received] --> B[Parsed] --> C[Reviewed] --> D[Action Created] --> E[Done]
+```
+
+## Ingestion Modes
+
+### Manual Mode
+
+Staff can paste:
+
+* WhatsApp message
+* Email message
+* Supplier price list
+* Customer order
+* Customer complaint
+* Delivery question
+* Payment confirmation
+
+### Twilio Mode
+
+When Twilio is later connected, incoming WhatsApp messages should automatically appear as Inbox Cards.
+
+Important: the UI must not change between Manual Mode and Twilio Mode.
+
+The source can be shown as:
+
+* Manual Paste
+* WhatsApp Twilio
+* Email Paste
+
+## Inbox Card Fields
+
+Each Inbox Card should show:
+
+* Sender name, if available
+* Phone or email
+* Message preview
+* Source
+* Detected language
+* Suggested message type
+* Suggested next action
+* Current status
+
+## Suggested Message Types
+
+* New order
+* New inquiry
+* Order change
+* Payment confirmation
+* Delivery question
+* Complaint
+* Supplier quotation
+* Supplier availability
+* Supplier receipt
+* General message
+
+## Large Actions
+
+Use only large buttons:
+
+* Create Order
+* Link to Existing Order
+* Create Client
+* Update Supplier Price
+* Create Supplier Request
+* Mark Done
+
+## Paste-and-Parse Requirements
+
+When staff paste a message, the system should try to extract:
+
+For customer messages:
+
+* Name
+* WhatsApp number
+* Delivery address
+* Delivery zone, if possible
+* Delivery date
+* Time window
+* Products requested
+* Quantity
+* Payment note
+* Special notes
+
+For supplier messages:
+
+* Supplier name
+* Product list
+* Prices
+* Unit
+* Availability
+* Delivery ETA
+* Quality note
+* Payment note
+
+The system must show extracted information in a review card before saving.
+
+Staff must confirm before the data is added to orders, products, or suppliers.
+
+---
+
+# 7. Module 3 — Orders
+
+## Purpose
+
+Orders manages all customer orders from received to paid.
+
+## Mandatory Workflow at Top
+
+```mermaid
+flowchart LR
+A[Received] --> B[Confirmed] --> C[Products Checked] --> D[Packaged] --> E[Delivery Scheduled] --> F[Delivered] --> G[Paid] --> H[Completed]
+```
+
+## Order Card Fields
+
+Each order should be shown as a large card with:
+
+* Order number
+* Client name
+* WhatsApp
+* Delivery zone
+* Delivery address
+* Delivery date
+* Time window
+* Products
+* Payment status
+* Delivery status
+* Current issue
+* Next action
+
+## Order Stages
+
+* Received
+* Confirmed
+* Products Checked
+* Packaged
+* Delivery Scheduled
+* Delivered
+* Paid
+* Completed
+
+## Critical Flags
+
+* Missing Product
+* Supplier Delay
+* Delivery Delay
+* Customer Not Responding
+* Payment Pending
+* Quality Issue
+* Replacement Needed
+
+## Large Actions
+
+Use only big clear actions:
+
+* Move Forward
+* Add Missing Item
+* Schedule Delivery
+* Print Order PDF
+* Print Invoice PDF
+* Mark Paid
+* Open Details
+
+## Order Details
+
+Order details should open on one page.
+
+Do not split order details into many tabs.
+
+Keep the page simple.
+
+## Order PDF
+
+Each order must allow generation of an Order PDF.
+
+Purpose:
+
+* Internal confirmation
+* Client order summary
+* Staff delivery preparation
+
+Order PDF should include:
+
+* BALI FRUITS logo
+* Order number
+* Order date
+* Client name
+* WhatsApp
+* Delivery address
+* Delivery zone
+* Delivery date
+* Delivery time window
+* Product list
+* Quantity
+* Notes
+* Payment status
+* Delivery status
+
+## Invoice PDF
+
+Each order must allow generation of a normal client invoice PDF.
+
+This is a simple normal invoice, not a complex tax/legal invoice system.
+
+Invoice PDF should include:
+
+* BALI FRUITS logo
+* Invoice number
+* Invoice date
+* Client name
+* WhatsApp
+* Delivery address
+* Order number
+* Products
+* Quantity
+* Unit price
+* Subtotal
+* Delivery fee
+* Discount, if any
+* Total amount
+* Payment method
+* Payment status
+* Thank-you note
+* BALI FRUITS contact details
+
+## Optional PDF Actions
+
+Add large buttons:
+
+* Download PDF
+* Send by WhatsApp
+* Send by Email
+
+If sending is not implemented in MVP, keep only Download PDF.
+
+---
+
+# 8. Module 4 — Delivery
+
+## Purpose
+
+Delivery manages daily delivery operations.
+
+This must be a separate main module.
+
+Do not hide delivery inside Orders.
+
+## Mandatory Workflow at Top
+
+```mermaid
+flowchart LR
+A[Scheduled] --> B[Assigned] --> C[Picked Up] --> D[On Delivery] --> E[Delivered]
+```
+
+## Delivery Views
+
+Use simple card filters:
+
+* Today
+* Tomorrow
+* Delayed
+* Completed
+
+## Delivery Card Fields
+
+Each delivery card should show:
+
+* Client name
+* Order number
+* Zone
+* Address
+* Time window
+* Driver or delivery partner
+* Payment status
+* Delivery status
+* Delivery issue
+
+## Delivery Stages
+
+* Not Scheduled
+* Scheduled
+* Assigned
+* Picked Up
+* On Delivery
+* Delivered
+* Failed / Reschedule
+
+## Delivery Alerts
+
+* Address Missing
+* Customer Not Responding
+* Driver Delayed
+* Payment Not Confirmed
+* Wrong Zone
+* Delivery Failed
+
+## Large Actions
+
+* Assign Driver
+* Mark Picked Up
+* Mark On Delivery
+* Mark Delivered
+* Reschedule
+* Open Order
+
+## Mobile Rule
+
+This module must work very well on mobile.
+
+Delivery staff should be able to update status from a phone with one large action per step.
+
+---
+
+# 9. Module 5 — Products & Suppliers
+
+## Purpose
+
+This module combines:
+
+* Product price database
+* Supplier comparison
+* Supplier message normalization
+* Purchase requests
+* Receipt attachments
+
+Do not split these into separate modules in MVP.
+
+## Mandatory Workflow at Top
+
+```mermaid
+flowchart LR
+A[Supplier Message] --> B[Parsed List] --> C[Staff Review] --> D[Price Updated] --> E[Supplier Selected] --> F[Ready for Order]
+```
+
+## Product Card Fields
+
+Each product should show:
+
+* Product name
+* Category
+* Selling price
+* Best supplier
+* Supplier price
+* Availability
+* Quality rating
+* ETA
+* Last update
+
+## Product Categories
+
+Keep categories simple:
+
+* Tropical Fruits
+* Local Fruits
+* Vegetables
+* Greens
+* Smoothie Products
+* Boxes
+* Add-ons
+* Other
+
+## Supplier Card Fields
+
+Each supplier card should show:
+
+* Supplier name
+* WhatsApp
+* Location
+* Main products
+* Reliability note
+* Quality note
+* Last price update
+
+## Supplier Comparison
+
+Inside a product card, show supplier comparison like:
+
+* Supplier A — price / availability / quality / ETA
+* Supplier B — price / availability / quality / ETA
+* Supplier C — price / availability / quality / ETA
+
+The system can suggest:
+
+* Best price
+* Best quality
+* Fastest delivery
+* Preferred supplier
+
+But staff must confirm manually.
+
+## Supplier Message Normalizer
+
+Suppliers have no fixed price-list format.
+
+They may send informal WhatsApp lists such as:
+
+* Mango 25k
+* Papaya 15k
+* Avocado 35k
+* Dragon fruit ready tomorrow
+* Banana no stock
+
+The CRM must normalize these messages into structured product data.
+
+## Supplier Parser Fields
+
+The system should try to extract:
+
+* Supplier name
+* Product name
+* Price
+* Unit
+* Availability
+* Delivery ETA
+* Quality note
+* Message date
+
+## Staff Review Required
+
+The system must not automatically overwrite product prices without staff review.
+
+Flow:
+
+```mermaid
+flowchart LR
+A[Raw Supplier Message] --> B[Extract Product Data] --> C[Review Card] --> D[Confirm] --> E[Update Product Price DB]
+```
+
+## Receipt and Attachment Handling
+
+Each supplier update or purchase request should allow attachments:
+
+* Receipt photo
+* Handwritten supplier receipt
+* WhatsApp screenshot
+* Supplier invoice
+* Delivery note
+
+Attachment fields:
+
+* File
+* Supplier
+* Related purchase/order, if any
+* Date
+* Notes
+
+## Purchase Request Inside This Module
+
+Purchase requests should live inside Products & Suppliers.
+
+Do not create a separate Purchase Orders module in MVP.
+
+Purchase request workflow:
+
+```mermaid
+flowchart LR
+A[Request] --> B[Waiting Quote] --> C[Ordered] --> D[Paid] --> E[ETA Confirmed] --> F[Received] --> G[Quality Checked]
+```
+
+Purchase request card should show:
+
+* Supplier
+* Products
+* Quantity
+* Expected price
+* Confirmed price
+* ETA
+* Payment status
+* Quality status
+* Attachments
+
+Large actions:
+
+* Request Quote
+* Mark Ordered
+* Mark Paid
+* Mark Received
+* Add Quality Problem
+* Attach Receipt
+
+---
+
+# 10. Module 6 — Inventory & Materials
+
+## Purpose
+
+Inventory & Materials tracks only what is operationally useful.
+
+It is not a full warehouse system.
+
+It combines:
+
+* Fresh product stock
+* Packaging stock
+* Marketing material stock
+
+Do not create separate marketing material module in MVP.
+
+## Mandatory Workflow at Top
+
+```mermaid
+flowchart LR
+A[Checked] --> B[Reserved] --> C[Used] --> D[Low Stock] --> E[Reorder]
+```
+
+## Two Sections
+
+### Section 1 — Fresh Stock
+
+Fresh stock card fields:
+
+* Product
+* Quantity
+* Unit
+* Freshness
+* Supplier
+* Reserved for order
+* Problem note
+
+Freshness options:
+
+* Good
+* Use First
+* Low Quality
+* Reject
+
+### Section 2 — Materials
+
+Material items:
+
+* Delivery box small
+* Delivery box medium
+* Delivery box large
+* Delivery bag small
+* Delivery bag large
+* Stickers
+* QR stickers
+* Brochures
+* Leaflets
+* A5 sheets
+* Business cards
+* Thank-you cards
+* Promo inserts
+
+Material card fields:
+
+* Item name
+* Current quantity
+* Minimum quantity
+* Status
+* Supplier
+* Last reorder date
+
+Status options:
+
+* Enough Stock
+* Low Stock
+* Reorder Needed
+* Waiting Delivery
+
+## Large Actions
+
+* Update Quantity
+* Reserve
+* Mark Used
+* Reorder
+* Attach Receipt
+
+---
+
+# 11. Module 7 — Settings
+
+## Purpose
+
+Settings should remain minimal.
+
+## Mandatory Workflow at Top
+
+```mermaid
+flowchart LR
+A[Configure] --> B[Test] --> C[Use] --> D[Review]
+```
+
+## Settings Sections
+
+Only include:
+
+* Staff users
+* Delivery zones
+* Delivery fees
+* Product categories
+* Message templates
+* Payment methods
+* Order stages
+* Delivery stages
+* Brand colors
+
+## Do Not Add
+
+Do not add complex settings for:
+
+* Accounting
+* Taxes
+* ERP warehouse
+* Multi-company structure
+* Advanced permissions
+* Complex automations
+
+---
+
+# 12. Client Logic
+
+Do not create Clients as a separate main module in MVP.
+
+Client records should exist in the database, but staff access them through:
+
+* Inbox
+* Orders
+* Delivery
+
+## Client Fields
+
+* Name
+* WhatsApp
+* Email, if available
+* Address
+* Delivery zone
+* Language
+* Client type
+* Notes
+* Last order date
+
+## Client Types
+
+* Lead
+* Active Client
+* Repeat Client
+* VIP
+* Business Client
+
+---
+
+# 13. Data Normalization Rules
+
+## Customer Message Normalization
+
+Raw message should become a review card.
+
+Possible extracted fields:
+
+* Client name
+* Phone
+* Delivery area
+* Address
+* Products
+* Quantities
+* Preferred delivery date
+* Time window
+* Payment note
+* Special note
+
+## Supplier Message Normalization
+
+Raw supplier message should become product price entries.
+
+Possible extracted fields:
+
+* Supplier
+* Product
+* Price
+* Unit
+* Availability
+* ETA
+* Quality note
+
+## Required Rule
+
+Never auto-save parsed information without staff review.
+
+Always show:
+
+Raw message
+Extracted data
+Confirm button
+
+---
+
+# 14. Status Colors
+
+Use brand colors and simple alerts.
+
+## Brand Colors
+
+Forest green: main navigation, headers, text
+Mint: soft highlights and positive states
+Cream: main background
+Orange: primary action buttons
+
+## Status Colors
+
+Green: completed / good
+Orange: action needed
+Red: urgent issue
+Grey: waiting / inactive
+
+Keep color use restrained and clear.
+
+---
+
+# 15. Mobile UX Requirements
+
+The CRM must be usable on mobile.
+
+Mobile rules:
+
+* One column layout
+* Large cards
+* Large buttons
+* No tiny icons as primary actions
+* Sticky workflow ribbon or visible workflow block
+* Avoid horizontal tables
+* Keep text readable
+* Minimum required input only
+
+Delivery, Inbox, and Orders are the most important mobile views.
+
+---
+
+# 16. Recommended Main User Flow
+
+The whole CRM should follow this chain:
+
+```mermaid
+flowchart LR
+A[Message Arrives] --> B[System Parses]
+B --> C[Staff Confirms]
+C --> D[Order Created]
+D --> E[Products Checked]
+E --> F[Supplier Issue Solved]
+F --> G[Delivery Scheduled]
+G --> H[Order / Invoice PDF]
+H --> I[Payment Confirmed]
+I --> J[Completed]
+```
+
+This workflow should guide the whole product.
+
+---
+
+# 17. MVP Build Priority
+
+## Priority 1
+
+Build:
+
+* Dashboard
+* Inbox manual paste
+* Orders
+* Delivery
+* PDF Order
+* PDF Invoice
+
+## Priority 2
+
+Build:
+
+* Supplier message normalizer
+* Products & Suppliers
+* Supplier price comparison
+* Supplier receipt attachments
+
+## Priority 3
+
+Build:
+
+* Inventory & Materials
+* Low stock alerts
+* Twilio WhatsApp ingestion
+* Send PDF by WhatsApp/email
+
+## Priority 4
+
+Optional later:
+
+* More analytics
+* Campaign management
+* Advanced supplier scoring
+* Advanced client segmentation
+
+---
+
+# 18. Twilio Implementation Phase
+
+Twilio is required but not yet set up.
+
+Therefore:
+
+## Phase 1 — Manual Mode
+
+System works fully with manual copy/paste.
+
+## Phase 2 — Twilio Mode
+
+After Twilio and WhatsApp Business are set up:
+
+* Incoming WhatsApp messages enter automatically
+* Messages create Inbox Cards
+* Staff sees the same UI as manual messages
+* Source is marked as WhatsApp Twilio
+* Attachments/media should be stored when available
+
+Do not block MVP development waiting for Twilio.
+
+Manual Mode must be fully usable first.
+
+---
+
+# 19. What the CRM Must Not Become
+
+The CRM must not become:
+
+* Full ERP
+* Full accounting system
+* Advanced warehouse system
+* Full marketing automation platform
+* Complex CRM with many tabs
+* Heavy admin backend
+* Table-heavy database interface
+
+The CRM is a simple operations tool for Bali Fruits staff.
+
+---
+
+# 20. Final Developer Instruction
+
+The most important rule:
+
+Build fewer modules, but make each module very clear.
+
+Every module must have:
+
+1. A large visual workflow at the top
+2. Large task cards
+3. Clear status labels
+4. Few large actions
+5. Minimal manual typing
+6. Mobile-friendly layout
+7. No unnecessary secondary pages
+
+The CRM succeeds if a staff member can open it and immediately understand:
+
+What happened
+What is missing
+What to do next
+Who is responsible
+Whether the order can move forward

@@ -1,0 +1,2214 @@
+[
+  {
+    "name": "Carrot import",
+    "category": "Other",
+    "sellingPrice": 32500,
+    "bestSupplier": "Pak Agung Fruits",
+    "supplierPrice": 26000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:34:59.378Z",
+    "supplierQuotes": {
+      "Local Supplier": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T22:54:49.988Z"
+      },
+      "Bali Organic Farm": {
+        "price": 35000,
+        "availability": "Limited",
+        "date": "2026-06-13T23:19:42.605Z"
+      },
+      "Fruits Ubud": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.270Z"
+      },
+      "Ubud Fruits": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.234Z"
+      },
+      "Pak Agung Fruits": {
+        "price": 26000,
+        "availability": "In Stock",
+        "unit": "kg",
+        "date": "2026-06-13T23:34:59.378Z"
+      }
+    },
+    "id": "products-glfrlkkhw"
+  },
+  {
+    "name": "Kol putih",
+    "category": "Other",
+    "sellingPrice": 13000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 10000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.241Z",
+    "supplierQuotes": {
+      "Local Supplier": {
+        "price": 10000,
+        "availability": "In Stock",
+        "date": "2026-06-13T22:54:49.994Z"
+      },
+      "Fruits Ubud": {
+        "price": 10000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.275Z"
+      },
+      "Ubud Fruits": {
+        "price": 10000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.241Z"
+      }
+    },
+    "id": "products-f5ht2x3ay"
+  },
+  {
+    "name": "Kol ungu",
+    "category": "Other",
+    "sellingPrice": 52000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 40000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.246Z",
+    "supplierQuotes": {
+      "Local Supplier": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T22:54:49.999Z"
+      },
+      "Bali Organic Farm": {
+        "price": 35000,
+        "availability": "Out of Stock",
+        "date": "2026-06-13T23:17:36.211Z"
+      },
+      "Fruits Ubud": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.280Z"
+      },
+      "Ubud Fruits": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.246Z"
+      }
+    },
+    "id": "products-ygerboc8p"
+  },
+  {
+    "name": "Celery stick",
+    "category": "Other",
+    "sellingPrice": 78000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 60000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.251Z",
+    "supplierQuotes": {
+      "Local Supplier": {
+        "price": 60000,
+        "availability": "In Stock",
+        "date": "2026-06-13T22:54:50.005Z"
+      },
+      "Fruits Ubud": {
+        "price": 60000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.284Z"
+      },
+      "Ubud Fruits": {
+        "price": 60000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.251Z"
+      }
+    },
+    "id": "products-dxj63oy5n"
+  },
+  {
+    "name": "Jahe",
+    "category": "Other",
+    "sellingPrice": 32500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 25000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.301Z",
+    "supplierQuotes": {
+      "Local Supplier": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T22:54:50.010Z"
+      },
+      "Fruits Ubud": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.323Z"
+      },
+      "Ubud Fruits": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.301Z"
+      }
+    },
+    "id": "products-p1jx1y6ur"
+  },
+  {
+    "name": "Kunyit",
+    "category": "Other",
+    "sellingPrice": 16900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 13000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.308Z",
+    "supplierQuotes": {
+      "Local Supplier": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T22:54:50.014Z"
+      },
+      "Fruits Ubud": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.327Z"
+      },
+      "Ubud Fruits": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.308Z"
+      }
+    },
+    "id": "products-w25k3lq7e"
+  },
+  {
+    "name": "Timun jepang",
+    "category": "Other",
+    "sellingPrice": 16900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 13000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.257Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.289Z"
+      },
+      "Ubud Fruits": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.257Z"
+      }
+    },
+    "id": "products-s66dyzt1j"
+  },
+  {
+    "name": "Terong ungu",
+    "category": "Other",
+    "sellingPrice": 16900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 13000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.262Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.293Z"
+      },
+      "Ubud Fruits": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.262Z"
+      }
+    },
+    "id": "products-h07exzaqm"
+  },
+  {
+    "name": "Jeruk lokal",
+    "category": "Other",
+    "sellingPrice": 29900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 23000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.267Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.298Z"
+      },
+      "Ubud Fruits": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.267Z"
+      }
+    },
+    "id": "products-v48dyn5mw"
+  },
+  {
+    "name": "Garlic utuh",
+    "category": "Other",
+    "sellingPrice": 61100,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 40000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.278Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 47000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.302Z"
+      },
+      "Ubud Fruits": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.278Z"
+      }
+    },
+    "id": "products-sdr80j5yg"
+  },
+  {
+    "name": "Garlic utuh",
+    "category": "Other",
+    "sellingPrice": 52000,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 40000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.306Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.306Z"
+      }
+    },
+    "id": "products-km0vcbw7a"
+  },
+  {
+    "name": "Shallot utuh",
+    "category": "Other",
+    "sellingPrice": 71500,
+    "bestSupplier": "Pak Agung Fruits",
+    "supplierPrice": 48000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:34:59.390Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 55000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.310Z"
+      },
+      "Ubud Fruits": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.290Z"
+      },
+      "Pak Agung Fruits": {
+        "price": 48000,
+        "availability": "In Stock",
+        "unit": "100g",
+        "date": "2026-06-13T23:34:59.390Z"
+      }
+    },
+    "id": "products-885vl4a53"
+  },
+  {
+    "name": "Shallot utuh",
+    "category": "Other",
+    "sellingPrice": 65000,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 50000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.315Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.315Z"
+      }
+    },
+    "id": "products-4b5oxwk3n"
+  },
+  {
+    "name": "Kemangi",
+    "category": "Other",
+    "sellingPrice": 3900,
+    "bestSupplier": "Pak Agung Fruits",
+    "supplierPrice": 3000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:34:59.384Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 3000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.319Z"
+      },
+      "Ubud Fruits": {
+        "price": 3000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.296Z"
+      },
+      "Pak Agung Fruits": {
+        "price": 3000,
+        "availability": "In Stock",
+        "unit": "ikat",
+        "date": "2026-06-13T23:34:59.384Z"
+      }
+    },
+    "id": "products-yxr0v15mb"
+  },
+  {
+    "name": "Kencur",
+    "category": "Other",
+    "sellingPrice": 62400,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 48000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.314Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 48000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.332Z"
+      },
+      "Ubud Fruits": {
+        "price": 48000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.314Z"
+      }
+    },
+    "id": "products-k0y7prafz"
+  },
+  {
+    "name": "Lengkuas",
+    "category": "Other",
+    "sellingPrice": 16900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 13000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.320Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.336Z"
+      },
+      "Ubud Fruits": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.320Z"
+      }
+    },
+    "id": "products-17rn9xjja"
+  },
+  {
+    "name": "Sereh",
+    "category": "Other",
+    "sellingPrice": 20800,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 16000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.325Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 16000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.340Z"
+      },
+      "Ubud Fruits": {
+        "price": 16000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.325Z"
+      }
+    },
+    "id": "products-repuyttjo"
+  },
+  {
+    "name": "Cabe rawit",
+    "category": "Other",
+    "sellingPrice": 104000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 80000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.330Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 80000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.344Z"
+      },
+      "Ubud Fruits": {
+        "price": 80000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.330Z"
+      }
+    },
+    "id": "products-sdlb3c1u6"
+  },
+  {
+    "name": "Cabe lombok",
+    "category": "Other",
+    "sellingPrice": 65000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 50000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.335Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.349Z"
+      },
+      "Ubud Fruits": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.335Z"
+      }
+    },
+    "id": "products-g0wldhxkd"
+  },
+  {
+    "name": "Jalapeno",
+    "category": "Other",
+    "sellingPrice": 130000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 100000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.672Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 100000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.354Z"
+      },
+      "Ubud Fruits": {
+        "price": 100000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.672Z"
+      }
+    },
+    "id": "products-zlc781myl"
+  },
+  {
+    "name": "Tomat",
+    "category": "Other",
+    "sellingPrice": 23400,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 60000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.715Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 18000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.358Z"
+      },
+      "Ubud Fruits": {
+        "price": 60000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.715Z"
+      }
+    },
+    "id": "products-cj3e57685"
+  },
+  {
+    "name": "Tomat",
+    "category": "Other",
+    "sellingPrice": 58500,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 45000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.363Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.363Z"
+      }
+    },
+    "id": "products-17f0srmvi"
+  },
+  {
+    "name": "Tomat",
+    "category": "Other",
+    "sellingPrice": 78000,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 60000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.368Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 60000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.368Z"
+      }
+    },
+    "id": "products-flampl5ea"
+  },
+  {
+    "name": "Lobak putih",
+    "category": "Other",
+    "sellingPrice": 16900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 13000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.360Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.373Z"
+      },
+      "Ubud Fruits": {
+        "price": 13000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.360Z"
+      }
+    },
+    "id": "products-cnufkhnls"
+  },
+  {
+    "name": "Labu Siam",
+    "category": "Other",
+    "sellingPrice": 13000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 12000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.371Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 10000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.377Z"
+      },
+      "Ubud Fruits": {
+        "price": 12000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.371Z"
+      }
+    },
+    "id": "products-0srkaay5c"
+  },
+  {
+    "name": "Labu Siam",
+    "category": "Other",
+    "sellingPrice": 15600,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 12000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.382Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 12000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.382Z"
+      }
+    },
+    "id": "products-cubhzm60n"
+  },
+  {
+    "name": "Jagung",
+    "category": "Other",
+    "sellingPrice": 13000,
+    "bestSupplier": "Pak Agung Fruits",
+    "supplierPrice": 10000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:34:59.396Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 10000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.387Z"
+      },
+      "Ubud Fruits": {
+        "price": 10000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.377Z"
+      },
+      "Pak Agung Fruits": {
+        "price": 10000,
+        "availability": "In Stock",
+        "unit": "pcs",
+        "date": "2026-06-13T23:34:59.396Z"
+      }
+    },
+    "id": "products-5st5ilrn3"
+  },
+  {
+    "name": "Kentang",
+    "category": "Other",
+    "sellingPrice": 26000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 20000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.383Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 20000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.391Z"
+      },
+      "Ubud Fruits": {
+        "price": 20000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.383Z"
+      }
+    },
+    "id": "products-z5fyfymrf"
+  },
+  {
+    "name": "Sweet potato",
+    "category": "Other",
+    "sellingPrice": 15600,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 12000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.388Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 12000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.395Z"
+      },
+      "Ubud Fruits": {
+        "price": 12000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.388Z"
+      }
+    },
+    "id": "products-4usfvus3z"
+  },
+  {
+    "name": "Pisang mas",
+    "category": "Other",
+    "sellingPrice": 19500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 16000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.445Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.400Z"
+      },
+      "Ubud Fruits": {
+        "price": 16000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.445Z"
+      }
+    },
+    "id": "products-ed46txrv2"
+  },
+  {
+    "name": "Sawi putih",
+    "category": "Other",
+    "sellingPrice": 19500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 15000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.398Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.405Z"
+      },
+      "Ubud Fruits": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.398Z"
+      }
+    },
+    "id": "products-1deb2dmzj"
+  },
+  {
+    "name": "Broccoli local",
+    "category": "Other",
+    "sellingPrice": 84500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 45000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.410Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 65000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.409Z"
+      },
+      "Ubud Fruits": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.410Z"
+      }
+    },
+    "id": "products-m49jigmuy"
+  },
+  {
+    "name": "Broccoli local",
+    "category": "Other",
+    "sellingPrice": 58500,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 45000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.414Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.414Z"
+      }
+    },
+    "id": "products-fa68eb9a4"
+  },
+  {
+    "name": "Couliflower",
+    "category": "Other",
+    "sellingPrice": 52000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 40000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.415Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.418Z"
+      },
+      "Ubud Fruits": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.415Z"
+      }
+    },
+    "id": "products-3p0803vin"
+  },
+  {
+    "name": "Toge",
+    "category": "Other",
+    "sellingPrice": 15600,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 12000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.420Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 12000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.422Z"
+      },
+      "Ubud Fruits": {
+        "price": 12000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.420Z"
+      }
+    },
+    "id": "products-zu6xf0vpf"
+  },
+  {
+    "name": "Avocado Bali",
+    "category": "Other",
+    "sellingPrice": 49400,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 38000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.425Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 38000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.427Z"
+      },
+      "Ubud Fruits": {
+        "price": 38000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.425Z"
+      }
+    },
+    "id": "products-tubxthjqj"
+  },
+  {
+    "name": "Bengkoang",
+    "category": "Other",
+    "sellingPrice": 19500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 15000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.430Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.431Z"
+      },
+      "Ubud Fruits": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.430Z"
+      }
+    },
+    "id": "products-2tewosz19"
+  },
+  {
+    "name": "Apel hijau green smith",
+    "category": "Other",
+    "sellingPrice": 52000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 40000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.435Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.436Z"
+      },
+      "Ubud Fruits": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.435Z"
+      }
+    },
+    "id": "products-klwabdx7l"
+  },
+  {
+    "name": "Nanas import",
+    "category": "Other",
+    "sellingPrice": 26000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 20000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.440Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 20000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.440Z"
+      },
+      "Ubud Fruits": {
+        "price": 20000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.440Z"
+      }
+    },
+    "id": "products-9wr486dku"
+  },
+  {
+    "name": "Pisang mas",
+    "category": "Other",
+    "sellingPrice": 20800,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 16000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.445Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 16000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.445Z"
+      }
+    },
+    "id": "products-w7drqotwo"
+  },
+  {
+    "name": "Markisa masam",
+    "category": "Other",
+    "sellingPrice": 58500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 45000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.450Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.449Z"
+      },
+      "Ubud Fruits": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.450Z"
+      }
+    },
+    "id": "products-fbft7smf6"
+  },
+  {
+    "name": "Mango Harum Manis",
+    "category": "Other",
+    "sellingPrice": 58500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 45000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.456Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.453Z"
+      },
+      "Ubud Fruits": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.456Z"
+      }
+    },
+    "id": "products-i3uz90aby"
+  },
+  {
+    "name": "Dragon Fruit Red",
+    "category": "Other",
+    "sellingPrice": 32500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 25000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.461Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.458Z"
+      },
+      "Ubud Fruits": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.461Z"
+      }
+    },
+    "id": "products-i1t44moxr"
+  },
+  {
+    "name": "Organic Spinach",
+    "category": "Other",
+    "sellingPrice": 19500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 35000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.626Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.463Z"
+      },
+      "Ubud Fruits": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.626Z"
+      }
+    },
+    "id": "products-va5xbjx99"
+  },
+  {
+    "name": "Papaya California",
+    "category": "Other",
+    "sellingPrice": 18200,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 14000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.472Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 14000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.467Z"
+      },
+      "Ubud Fruits": {
+        "price": 14000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.472Z"
+      }
+    },
+    "id": "products-wl4lc7652"
+  },
+  {
+    "name": "Stoberi",
+    "category": "Other",
+    "sellingPrice": 84500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 65000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.477Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 65000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.471Z"
+      },
+      "Ubud Fruits": {
+        "price": 65000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.477Z"
+      }
+    },
+    "id": "products-s4gh4x6rf"
+  },
+  {
+    "name": "Semangka",
+    "category": "Other",
+    "sellingPrice": 18200,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 14000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.483Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 14000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.476Z"
+      },
+      "Ubud Fruits": {
+        "price": 14000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.483Z"
+      }
+    },
+    "id": "products-4ewgbiwa1"
+  },
+  {
+    "name": "Lemon import",
+    "category": "Other",
+    "sellingPrice": 65000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 50000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.489Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.480Z"
+      },
+      "Ubud Fruits": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.489Z"
+      }
+    },
+    "id": "products-xd0lloa2e"
+  },
+  {
+    "name": "Mandarin",
+    "category": "Other",
+    "sellingPrice": 65000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 50000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.495Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.485Z"
+      },
+      "Ubud Fruits": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.495Z"
+      }
+    },
+    "id": "products-mqvc8c8hx"
+  },
+  {
+    "name": "Orange sunskit",
+    "category": "Other",
+    "sellingPrice": 45500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 35000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.502Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.490Z"
+      },
+      "Ubud Fruits": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.502Z"
+      }
+    },
+    "id": "products-aqav2h52q"
+  },
+  {
+    "name": "Delima red",
+    "category": "Other",
+    "sellingPrice": 175500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 135000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.508Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 135000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.495Z"
+      },
+      "Ubud Fruits": {
+        "price": 135000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.508Z"
+      }
+    },
+    "id": "products-jicuxp67r"
+  },
+  {
+    "name": "Kiwi green",
+    "category": "Other",
+    "sellingPrice": 130000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 100000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.513Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 100000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.500Z"
+      },
+      "Ubud Fruits": {
+        "price": 100000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.513Z"
+      }
+    },
+    "id": "products-66vvzcq9y"
+  },
+  {
+    "name": "Jamur king oyster",
+    "category": "Other",
+    "sellingPrice": 29900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 23000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.518Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.506Z"
+      },
+      "Ubud Fruits": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.518Z"
+      }
+    },
+    "id": "products-kgb5j10nq"
+  },
+  {
+    "name": "Jamur tiram",
+    "category": "Other",
+    "sellingPrice": 39000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 30000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.524Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 30000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.511Z"
+      },
+      "Ubud Fruits": {
+        "price": 30000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.524Z"
+      }
+    },
+    "id": "products-xl6hrb7wl"
+  },
+  {
+    "name": "Jamur kancing putih",
+    "category": "Other",
+    "sellingPrice": 65000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 50000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.529Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.516Z"
+      },
+      "Ubud Fruits": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.529Z"
+      }
+    },
+    "id": "products-qbzfndml5"
+  },
+  {
+    "name": "Jamur Enoki",
+    "category": "Other",
+    "sellingPrice": 10400,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 8000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.534Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 8000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.521Z"
+      },
+      "Ubud Fruits": {
+        "price": 8000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.534Z"
+      }
+    },
+    "id": "products-l4hgkpoe1"
+  },
+  {
+    "name": "Jamur shimeji",
+    "category": "Other",
+    "sellingPrice": 19500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 15000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.540Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.525Z"
+      },
+      "Ubud Fruits": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.540Z"
+      }
+    },
+    "id": "products-ykju5xplf"
+  },
+  {
+    "name": "Aloevera big",
+    "category": "Other",
+    "sellingPrice": 32500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 25000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.545Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.530Z"
+      },
+      "Ubud Fruits": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.545Z"
+      }
+    },
+    "id": "products-z0lmkrqo9"
+  },
+  {
+    "name": "Beetroot",
+    "category": "Other",
+    "sellingPrice": 45500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 35000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.551Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.535Z"
+      },
+      "Ubud Fruits": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.551Z"
+      }
+    },
+    "id": "products-9gt98k29y"
+  },
+  {
+    "name": "Kale Curly",
+    "category": "Other",
+    "sellingPrice": 52000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 40000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.562Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.539Z"
+      },
+      "Ubud Fruits": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.562Z"
+      }
+    },
+    "id": "products-4jn3px9y2"
+  },
+  {
+    "name": "Kale Curly",
+    "category": "Other",
+    "sellingPrice": 52000,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 40000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.544Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.544Z"
+      }
+    },
+    "id": "products-ni0jzxe58"
+  },
+  {
+    "name": "Jamur portabela",
+    "category": "Other",
+    "sellingPrice": 162500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 125000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.567Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 125000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.548Z"
+      },
+      "Ubud Fruits": {
+        "price": 125000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.567Z"
+      }
+    },
+    "id": "products-ugw1mozk6"
+  },
+  {
+    "name": "Jamur Shitake",
+    "category": "Other",
+    "sellingPrice": 162500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 125000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.573Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 125000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.553Z"
+      },
+      "Ubud Fruits": {
+        "price": 125000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.573Z"
+      }
+    },
+    "id": "products-pvbf37nmw"
+  },
+  {
+    "name": "Green Curly",
+    "category": "Other",
+    "sellingPrice": 39000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 30000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.578Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 30000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.557Z"
+      },
+      "Ubud Fruits": {
+        "price": 30000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.578Z"
+      }
+    },
+    "id": "products-2r3k750uj"
+  },
+  {
+    "name": "Baby romana",
+    "category": "Other",
+    "sellingPrice": 52000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 40000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.584Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.561Z"
+      },
+      "Ubud Fruits": {
+        "price": 40000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.584Z"
+      }
+    },
+    "id": "products-007hsqlg1"
+  },
+  {
+    "name": "Mizuna",
+    "category": "Other",
+    "sellingPrice": 65000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 50000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.590Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.565Z"
+      },
+      "Ubud Fruits": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.590Z"
+      }
+    },
+    "id": "products-11q9d71nf"
+  },
+  {
+    "name": "Raddicio",
+    "category": "Other",
+    "sellingPrice": 45500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 35000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.595Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.570Z"
+      },
+      "Ubud Fruits": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.595Z"
+      }
+    },
+    "id": "products-fq06tssmz"
+  },
+  {
+    "name": "Loloroso",
+    "category": "Other",
+    "sellingPrice": 91000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 70000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.600Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 70000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.574Z"
+      },
+      "Ubud Fruits": {
+        "price": 70000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.600Z"
+      }
+    },
+    "id": "products-g4og0jx8h"
+  },
+  {
+    "name": "Onion white",
+    "category": "Other",
+    "sellingPrice": 29900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 23000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.605Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.577Z"
+      },
+      "Ubud Fruits": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.605Z"
+      }
+    },
+    "id": "products-ywse9gs70"
+  },
+  {
+    "name": "Spring onion",
+    "category": "Other",
+    "sellingPrice": 91000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 70000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.610Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 70000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.581Z"
+      },
+      "Ubud Fruits": {
+        "price": 70000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.610Z"
+      }
+    },
+    "id": "products-slq0mjhpe"
+  },
+  {
+    "name": "Leek clean",
+    "category": "Other",
+    "sellingPrice": 45500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 35000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.615Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.585Z"
+      },
+      "Ubud Fruits": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.615Z"
+      }
+    },
+    "id": "products-7vw06dwyc"
+  },
+  {
+    "name": "Parsley kriting",
+    "category": "Other",
+    "sellingPrice": 45500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 35000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.621Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.589Z"
+      },
+      "Ubud Fruits": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.621Z"
+      }
+    },
+    "id": "products-zdt2yulr6"
+  },
+  {
+    "name": "Organic Spinach",
+    "category": "Other",
+    "sellingPrice": 45500,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 35000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.593Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 35000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.593Z"
+      }
+    },
+    "id": "products-owb5g8cq0"
+  },
+  {
+    "name": "Sukini",
+    "category": "Other",
+    "sellingPrice": 39000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 30000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.631Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 30000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.598Z"
+      },
+      "Ubud Fruits": {
+        "price": 30000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.631Z"
+      }
+    },
+    "id": "products-m581hqkeo"
+  },
+  {
+    "name": "Sukini kuning",
+    "category": "Other",
+    "sellingPrice": 65000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 50000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.636Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.602Z"
+      },
+      "Ubud Fruits": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.636Z"
+      }
+    },
+    "id": "products-ewjpqonkr"
+  },
+  {
+    "name": "Paprika merah",
+    "category": "Other",
+    "sellingPrice": 130000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 100000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.641Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 100000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.606Z"
+      },
+      "Ubud Fruits": {
+        "price": 100000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.641Z"
+      }
+    },
+    "id": "products-cymh7k0l1"
+  },
+  {
+    "name": "Paprika hijau",
+    "category": "Other",
+    "sellingPrice": 104000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 80000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.646Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 80000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.611Z"
+      },
+      "Ubud Fruits": {
+        "price": 80000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.646Z"
+      }
+    },
+    "id": "products-i0agd736q"
+  },
+  {
+    "name": "Paprika kuning",
+    "category": "Other",
+    "sellingPrice": 143000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 110000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.652Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 110000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.616Z"
+      },
+      "Ubud Fruits": {
+        "price": 110000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.652Z"
+      }
+    },
+    "id": "products-f8wz3qjcn"
+  },
+  {
+    "name": "Selada bulat",
+    "category": "Other",
+    "sellingPrice": 65000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 50000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.657Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.624Z"
+      },
+      "Ubud Fruits": {
+        "price": 50000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.657Z"
+      }
+    },
+    "id": "products-5zxedseq5"
+  },
+  {
+    "name": "Red radish",
+    "category": "Other",
+    "sellingPrice": 91000,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 70000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.662Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 70000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.628Z"
+      },
+      "Ubud Fruits": {
+        "price": 70000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.662Z"
+      }
+    },
+    "id": "products-i71tv1ndg"
+  },
+  {
+    "name": "Mint",
+    "category": "Other",
+    "sellingPrice": 58500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 45000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.667Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.634Z"
+      },
+      "Ubud Fruits": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.667Z"
+      }
+    },
+    "id": "products-azwk31b7t"
+  },
+  {
+    "name": "Jalapeno",
+    "category": "Other",
+    "sellingPrice": 130000,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 100000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.638Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 100000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.638Z"
+      }
+    },
+    "id": "products-0zwr8w4b3"
+  },
+  {
+    "name": "Mix lettuce",
+    "category": "Other",
+    "sellingPrice": 58500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 45000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.677Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.642Z"
+      },
+      "Ubud Fruits": {
+        "price": 45000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.677Z"
+      }
+    },
+    "id": "products-az37pvll2"
+  },
+  {
+    "name": "Edamame",
+    "category": "Other",
+    "sellingPrice": 32500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 25000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.682Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.646Z"
+      },
+      "Ubud Fruits": {
+        "price": 25000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.682Z"
+      }
+    },
+    "id": "products-j35al0m5i"
+  },
+  {
+    "name": "Melon",
+    "category": "Other",
+    "sellingPrice": 23400,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 18000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.687Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 18000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.651Z"
+      },
+      "Ubud Fruits": {
+        "price": 18000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.687Z"
+      }
+    },
+    "id": "products-9om7w6tpm"
+  },
+  {
+    "name": "Gulaku",
+    "category": "Other",
+    "sellingPrice": 29900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 23000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.692Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.655Z"
+      },
+      "Ubud Fruits": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.692Z"
+      }
+    },
+    "id": "products-xxixz8gyt"
+  },
+  {
+    "name": "Pokcoy",
+    "category": "Other",
+    "sellingPrice": 19500,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 15000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.696Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.659Z"
+      },
+      "Ubud Fruits": {
+        "price": 15000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.696Z"
+      }
+    },
+    "id": "products-m324zqgdx"
+  },
+  {
+    "name": "Tahu",
+    "category": "Other",
+    "sellingPrice": 15600,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 12000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.701Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 12000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.663Z"
+      },
+      "Ubud Fruits": {
+        "price": 12000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.701Z"
+      }
+    },
+    "id": "products-uz107ecl2"
+  },
+  {
+    "name": "Tempe",
+    "category": "Other",
+    "sellingPrice": 18200,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 14000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.705Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 14000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.667Z"
+      },
+      "Ubud Fruits": {
+        "price": 14000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.705Z"
+      }
+    },
+    "id": "products-5zeyk9xqx"
+  },
+  {
+    "name": "Lime",
+    "category": "Other",
+    "sellingPrice": 29900,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 23000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:29:44.710Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.671Z"
+      },
+      "Ubud Fruits": {
+        "price": 23000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:29:44.710Z"
+      }
+    },
+    "id": "products-8vium4abc"
+  },
+  {
+    "name": "Tomat",
+    "category": "Other",
+    "sellingPrice": 78000,
+    "bestSupplier": "Fruits Ubud",
+    "supplierPrice": 60000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:22:07.675Z",
+    "supplierQuotes": {
+      "Fruits Ubud": {
+        "price": 60000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:22:07.675Z"
+      }
+    },
+    "id": "products-irrmp9ip9"
+  },
+  {
+    "name": "Cavendish Banana",
+    "category": "Other",
+    "sellingPrice": 18200,
+    "bestSupplier": "Ubud Fruits",
+    "supplierPrice": 14000,
+    "availability": "In Stock",
+    "qualityRating": 5,
+    "eta": "Immediate",
+    "lastUpdate": "2026-06-13T23:28:08.077Z",
+    "supplierQuotes": {
+      "Ubud Fruits": {
+        "price": 14000,
+        "availability": "In Stock",
+        "date": "2026-06-13T23:28:08.077Z"
+      }
+    },
+    "id": "products-pla3vhaad"
+  }
+]

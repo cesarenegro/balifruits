@@ -1,0 +1,47 @@
+[
+  {
+    "id": "mat-1",
+    "name": "Delivery Box Small",
+    "quantity": 60,
+    "minQuantity": 50,
+    "status": "Enough Stock",
+    "supplierName": "Sari Packaging",
+    "lastReorderDate": "2026-05-10"
+  },
+  {
+    "id": "mat-2",
+    "name": "Delivery Box Medium",
+    "quantity": 11,
+    "minQuantity": 50,
+    "status": "Low Stock",
+    "supplierName": "Sari Packaging",
+    "lastReorderDate": "2026-06-01"
+  },
+  {
+    "id": "mat-3",
+    "name": "Delivery Box Large",
+    "quantity": 30,
+    "minQuantity": 20,
+    "status": "Enough Stock",
+    "supplierName": "Sari Packaging",
+    "lastReorderDate": "2026-05-15"
+  },
+  {
+    "id": "mat-4",
+    "name": "Stickers Brand Leaf",
+    "quantity": 250,
+    "minQuantity": 100,
+    "status": "Enough Stock",
+    "supplierName": "Sari Packaging",
+    "lastReorderDate": "2026-05-01"
+  },
+  {
+    "id": "mat-5",
+    "name": "Thank-you Cards",
+    "quantity": 15,
+    "minQuantity": 50,
+    "status": "Low Stock",
+    "supplierName": "Sari Packaging",
+    "lastReorderDate": "2026-04-20"
+  }
+]

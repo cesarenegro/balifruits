@@ -1,0 +1,42 @@
+[
+  {
+    "id": "s-1",
+    "name": "Pak Agung Fruits",
+    "whatsapp": "+62 812 3456 7890",
+    "location": "Ubud",
+    "mainProducts": "Mangoes, Bananas, Papayas",
+    "reliabilityNote": "Very reliable, drops off daily at 7 AM.",
+    "qualityNote": "Consistently high quality fruit.",
+    "lastPriceUpdate": "2026-06-13T23:34:59.366Z"
+  },
+  {
+    "id": "s-2",
+    "name": "Bali Organic Farm",
+    "whatsapp": "+62 819 8765 4321",
+    "location": "Bedugul",
+    "mainProducts": "Avocados, Greens, Berries",
+    "reliabilityNote": "Delivery twice a week (Tues/Fri).",
+    "qualityNote": "Good organic practices, avocados require ripening.",
+    "lastPriceUpdate": "2026-06-13T23:16:01.811Z"
+  },
+  {
+    "id": "s-3",
+    "name": "Sari Packaging",
+    "whatsapp": "+62 878 9988 7766",
+    "location": "Denpasar",
+    "mainProducts": "Delivery Boxes, Stickers, Bags",
+    "reliabilityNote": "Delivers bulk batches in 24 hours.",
+    "qualityNote": "Sturdy cardboard boxes.",
+    "lastPriceUpdate": "2026-06-13T23:16:01.811Z"
+  },
+  {
+    "name": "Ubud Fruits",
+    "whatsapp": "+62 812 3456 7890",
+    "location": "Ubud",
+    "mainProducts": "Fruits & Veggies",
+    "reliabilityNote": "Created automatically via copy-paste Ingestion",
+    "qualityNote": "Assessing quality",
+    "lastPriceUpdate": "2026-06-13T23:29:44.225Z",
+    "id": "suppliers-tv5projkz"
+  }
+]

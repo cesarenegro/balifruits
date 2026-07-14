@@ -1,0 +1,22 @@
+Last Update: 2026-07-13T14:41:20+08:00
+
+# Session Handover - CRM & Storefront Catalog Link
+
+## Lavoro Completato
+1. **Migrazione Database**: Tutti i prodotti precedentemente bloccati nel codice del frontend (in `script.js`) sono stati migrati nel database del CRM (`crm/js/db.js`). I 12 prodotti comprendono le varianti localizzate per 7 lingue (EN, FR, IT, RU, ID, ZH, UK), con i relativi prezzi e foto.
+2. **Ampliamento Admin CRM**:
+   - Ho aggiunto una nuova interfaccia nel CRM (`crm/js/app.js` e `crm/index.html`) per permettere la modifica diretta dei prodotti.
+   - Cliccando "Edit Product & Translations" su un prodotto, si apre un pannello per modificare: Foto (visual slug), Categoria, Prezzo, Quantità (Stock) e Disponibilità.
+   - Nello stesso pannello è ora possibile gestire tutte le traduzioni (Nome, Unità, Tag, Dettaglio, Descrizione) per le 7 lingue supportate.
+3. **Frontend Dinamico (Storefront)**:
+   - È stato eliminato l'array fisso dal frontend.
+   - Il sito ora richiama dinamicamente i dati (tramite la nuova funzione `fetchDynamicCatalog()`) dal CRM locale (`http://localhost:3050/api/products`) o da Supabase (se configurato).
+   - Se nel CRM un prodotto viene segnato come "Out of Stock", il frontend disabilita automaticamente il pulsante "Add to Cart" mostrando l'etichetta esaurito.
+
+## Stato Attuale
+- Il server CRM in locale (`node server.js`) è attualmente in esecuzione.
+- Il catalogo del frontend si popola correttamente via API attingendo dal database centrale.
+
+## Prossimi Passi (TODO)
+- Estendere eventualmente questa logica dinamica ad altre sezioni (es. `boxes.js` o `delivery.js`) se necessario.
+- Configurare il database cloud su Supabase se si desidera pubblicare il CRM e il frontend su Vercel in futuro.

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "zone-1",
+    "name": "Canggu",
+    "fee": 15000
+  },
+  {
+    "id": "zone-2",
+    "name": "Seminyak",
+    "fee": 20000
+  },
+  {
+    "id": "zone-3",
+    "name": "Kuta",
+    "fee": 25000
+  },
+  {
+    "id": "zone-4",
+    "name": "Sanur",
+    "fee": 30000
+  },
+  {
+    "id": "zone-5",
+    "name": "Ubud",
+    "fee": 40000
+  },
+  {
+    "id": "zone-6",
+    "name": "Uluwatu",
+    "fee": 45000
+  }
+]

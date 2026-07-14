@@ -1,0 +1,49 @@
+[
+  {
+    "id": "client-1",
+    "name": "John Doe",
+    "whatsapp": "+62 811 2222 3333",
+    "email": "john@example.com",
+    "address": "Villa Sun, Jl. Nelayan No. 10",
+    "deliveryZone": "Canggu",
+    "language": "English",
+    "clientType": "Repeat Client",
+    "notes": "Prefers ripe avocados. Orders weekly.",
+    "lastOrderDate": "2026-06-13"
+  },
+  {
+    "id": "client-2",
+    "name": "Alice Smith",
+    "whatsapp": "+62 819 8888 7777",
+    "email": "alice@example.com",
+    "address": "Jl. Kayu Aya No. 34, Loft 4",
+    "deliveryZone": "Seminyak",
+    "language": "English",
+    "clientType": "VIP",
+    "notes": "Needs premium grade fruits only.",
+    "lastOrderDate": "2026-06-13"
+  },
+  {
+    "id": "client-3",
+    "name": "Bob Johnson",
+    "whatsapp": "+62 857 7777 9999",
+    "email": "bob@example.com",
+    "address": "Green Valley Villa, Banjar Penestanan",
+    "deliveryZone": "Ubud",
+    "language": "English",
+    "clientType": "Active Client",
+    "notes": "",
+    "lastOrderDate": "2026-06-12"
+  },
+  {
+    "name": "Banda ",
+    "whatsapp": "+62585225456",
+    "address": "sanur",
+    "deliveryZone": "Sanur",
+    "language": "English",
+    "clientType": "Lead",
+    "notes": "",
+    "lastOrderDate": "2026-06-14",
+    "id": "clients-clmh5ie6h"
+  }
+]

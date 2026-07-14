@@ -1,0 +1,46 @@
+[
+  {
+    "id": "fs-1",
+    "name": "Mango Harum Manis",
+    "category": "Tropical Fruits",
+    "quantity": 45,
+    "unit": "kg",
+    "freshness": "Good",
+    "supplierName": "Pak Agung Fruits",
+    "reservedQuantity": 2,
+    "problemNote": ""
+  },
+  {
+    "id": "fs-2",
+    "name": "Avocado Bali",
+    "category": "Tropical Fruits",
+    "quantity": 5,
+    "unit": "kg",
+    "freshness": "Use First",
+    "supplierName": "Bali Organic Farm",
+    "reservedQuantity": 3,
+    "problemNote": "Low inventory"
+  },
+  {
+    "id": "fs-3",
+    "name": "Papaya California",
+    "category": "Tropical Fruits",
+    "quantity": 20,
+    "unit": "kg",
+    "freshness": "Good",
+    "supplierName": "Pak Agung Fruits",
+    "reservedQuantity": 3,
+    "problemNote": ""
+  },
+  {
+    "id": "fs-4",
+    "name": "Organic Spinach",
+    "category": "Greens",
+    "quantity": 0,
+    "unit": "bundle",
+    "freshness": "Reject",
+    "supplierName": "Bali Organic Farm",
+    "reservedQuantity": 0,
+    "problemNote": "Wilting due to heat, disposed."
+  }
+]

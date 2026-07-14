@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pr-1",
+    "supplierName": "Bali Organic Farm",
+    "products": [
+      {
+        "name": "Avocado Bali",
+        "quantity": 20,
+        "expectedPrice": 38000,
+        "confirmedPrice": 38000
+      }
+    ],
+    "totalPrice": 760000,
+    "eta": "2026-06-14",
+    "paymentStatus": "Ordered",
+    "qualityStatus": "OK",
+    "attachments": [],
+    "date": "2026-06-13T23:16:01.811Z"
+  }
+]

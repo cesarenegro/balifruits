@@ -1,0 +1,47 @@
+[
+  {
+    "senderName": "Wayan Test",
+    "phoneOrEmail": "+62 812 9999 8888",
+    "messageText": "Order Placed via Website Checkout Form for total Rp 137.000",
+    "source": "Web Checkout",
+    "date": "2026-06-13T22:33:28.498Z",
+    "language": "English",
+    "suggestedType": "New order",
+    "suggestedAction": "Link to Existing Order",
+    "status": "Done",
+    "parsedData": {
+      "id": "order-y7e1j6r92",
+      "orderNumber": "BF-WEB-2755",
+      "clientName": "Wayan Test",
+      "whatsapp": "+62 812 9999 8888",
+      "deliveryZone": "Ubud",
+      "deliveryAddress": "Jl. Raya Ubud No. 12",
+      "deliveryDate": "2026-06-15",
+      "timeWindow": "13:00 - 16:00",
+      "products": [
+        {
+          "name": "Avocado Mentega",
+          "quantity": 1,
+          "unit": "1 kg",
+          "price": 55000
+        },
+        {
+          "name": "Grande Mango Harum Manis",
+          "quantity": 1,
+          "unit": "1 kg",
+          "price": 42000
+        }
+      ],
+      "subtotal": 97000,
+      "deliveryFee": 40000,
+      "discount": 0,
+      "totalAmount": 137000,
+      "paymentStatus": "Pending",
+      "deliveryStatus": "Scheduled",
+      "issue": "None",
+      "stage": "Received",
+      "notes": "Placed via website checkout. Selected Payment: Stripe."
+    },
+    "id": "inbox-jb50r9qzx"
+  }
+]

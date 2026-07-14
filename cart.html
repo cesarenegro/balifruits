@@ -41,17 +41,87 @@
             <strong data-cart-subtotal>Rp 0</strong>
           </div>
           <div class="summary-row muted">
-            <span>Delivery</span>
-            <strong>Confirmed by zone</strong>
+            <span>Delivery Fee</span>
+            <strong id="summary-delivery-fee">Select Zone</strong>
           </div>
-          <div class="summary-total">
+          <div class="summary-total" style="border-bottom: 1px solid var(--line); padding-bottom: 18px; margin-bottom: 18px;">
             <span>Total</span>
             <strong data-cart-total>Rp 0</strong>
           </div>
-          <a class="whatsapp-button" href="#" target="_blank" rel="noopener" data-whatsapp-order>
-            Send order on WhatsApp
-          </a>
-          <button class="clear-button" type="button" data-clear-cart>Clear cart</button>
+
+          <form id="checkout-form" style="display: flex; flex-direction: column; gap: 12px;">
+            <h3 style="color: var(--green); font-size: 16px; margin: 0 0 4px 0; font-family: inherit;">Delivery & Payment</h3>
+            
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cust-name" style="font-size: 11px; font-weight: 850; color: var(--green); text-transform: uppercase;">Name</label>
+              <input type="text" id="cust-name" required placeholder="Your full name" style="padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; background: #fff; width: 100%;">
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cust-phone" style="font-size: 11px; font-weight: 850; color: var(--green); text-transform: uppercase;">WhatsApp Phone</label>
+              <input type="tel" id="cust-phone" required placeholder="e.g. +6281355551234" style="padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; background: #fff; width: 100%;">
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cust-zone" style="font-size: 11px; font-weight: 850; color: var(--green); text-transform: uppercase;">Delivery Area</label>
+              <select id="cust-zone" required style="padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; background: #fff; width: 100%; height: 40px;">
+                <option value="">-- Select Zone --</option>
+                <option value="Canggu">Canggu (Rp 15.000)</option>
+                <option value="Seminyak">Seminyak (Rp 20.000)</option>
+                <option value="Kuta">Kuta (Rp 25.000)</option>
+                <option value="Sanur">Sanur (Rp 30.000)</option>
+                <option value="Ubud">Ubud (Rp 40.000)</option>
+                <option value="Uluwatu">Uluwatu (Rp 45.000)</option>
+              </select>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cust-address" style="font-size: 11px; font-weight: 850; color: var(--green); text-transform: uppercase;">Address</label>
+              <input type="text" id="cust-address" required placeholder="Jalan, Villa, Room number" style="padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; background: #fff; width: 100%;">
+            </div>
+
+            <div style="display: flex; gap: 8px;">
+              <div style="display: flex; flex-direction: column; gap: 4px; flex: 1;">
+                <label for="cust-date" style="font-size: 11px; font-weight: 850; color: var(--green); text-transform: uppercase;">Date</label>
+                <input type="date" id="cust-date" required style="padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; background: #fff; width: 100%;">
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 4px; flex: 1;">
+                <label for="cust-time" style="font-size: 11px; font-weight: 850; color: var(--green); text-transform: uppercase;">Time Slot</label>
+                <select id="cust-time" required style="padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; background: #fff; width: 100%; height: 40px;">
+                  <option value="09:00 - 12:00">Morning (9-12)</option>
+                  <option value="13:00 - 16:00">Afternoon (1-4)</option>
+                  <option value="Flexible">Flexible</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+              <label for="cust-payment" style="font-size: 11px; font-weight: 850; color: var(--green); text-transform: uppercase;">Payment Method</label>
+              <select id="cust-payment" required style="padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; background: #fff; width: 100%; height: 40px;">
+                <option value="Bank Transfer">IDR Bank Transfer (Mandiri)</option>
+                <option value="Stripe">Card / Apple Pay / Google Pay (Stripe HK)</option>
+              </select>
+            </div>
+
+            <!-- Payment instructions panels -->
+            <div id="bank-info-panel" style="background-color: var(--cream); border: 1px dashed var(--line); padding: 12px; border-radius: 6px; font-size: 12px; line-height: 1.4; display: block; color: var(--green-ink);">
+              <strong>Mandiri Bank Transfer:</strong><br>
+              A/N: BALI FRUITS PT<br>
+              Account: <strong>145-00-1122334-5</strong><br>
+              Please send transfer receipt screenshot on WhatsApp next.
+            </div>
+
+            <div id="stripe-info-panel" style="background-color: var(--cream); border: 1px dashed var(--line); padding: 12px; border-radius: 6px; font-size: 12px; line-height: 1.4; display: none; color: var(--green-ink);">
+              <strong>Stripe Credit Card Payment:</strong><br>
+              Supports Apple Pay, Google Pay, Visa/MC.<br>
+              Stripe checkout page will open in a new tab.
+            </div>
+
+            <button type="submit" class="whatsapp-button" style="border: none; width: 100%; cursor: pointer; display: flex; align-items: center; justify-content: center; min-height: 50px;">
+              Place Order & Pay
+            </button>
+            <button class="clear-button" type="button" data-clear-cart>Clear cart</button>
+          </form>
         </aside>
       </section>
     </main>
