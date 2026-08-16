@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const SITE_URL = 'https://cesarenegro.github.io/balifruits';
+const SITE_URL = 'https://balifruits.com';
 const products = JSON.parse(fs.readFileSync('new_products.json', 'utf8'));
 const shopHtml = fs.readFileSync('shop.html', 'utf8');
 
