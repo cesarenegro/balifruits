@@ -64,8 +64,12 @@ svg {
   gap: 28px;
   min-height: 78px;
   padding: 16px clamp(18px, 4vw, 46px);
-  color: var(--cream-strong);
+  color: var(--green-ink);
   transition: background 180ms ease, color 180ms ease, box-shadow 180ms ease;
+}
+
+.site-header.header-light:not(.is-scrolled) {
+  color: var(--cream-strong);
 }
 
 .site-header.is-scrolled {
@@ -122,6 +126,23 @@ svg {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 6px;
+}
+
+.desktop-nav a[data-i18n="navShop"] {
+  background: rgba(143, 214, 191, 0.3); /* Light green background */
+  color: inherit;
+  padding: 6px 16px;
+  border-radius: 12px; /* Rounded corners */
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.desktop-nav a[data-i18n="navShop"]:hover {
+  background: var(--aqua);
+  color: var(--green-ink);
+  transform: translateY(-2px);
+  opacity: 1;
 }
 
 .header-actions {
@@ -609,7 +630,24 @@ svg {
   padding: 20px;
   border: 1px solid rgba(255, 250, 240, 0.18);
   border-radius: 8px;
-  background: rgba(247, 243, 232, 0.08);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.box-list article::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(23, 61, 43, 0.94) 0%, rgba(23, 61, 43, 0.2) 100%);
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+
+.boxes-link-panel:hover .box-list article::before {
+  opacity: 0.85;
 }
 
 .box-page-link {
@@ -628,7 +666,6 @@ svg {
 
 .boxes-link-panel:hover .box-list article {
   border-color: rgba(143, 214, 191, 0.52);
-  background: rgba(247, 243, 232, 0.12);
 }
 
 .box-list span {
@@ -694,7 +731,7 @@ svg {
 }
 
 .site-footer {
-  padding: 34px 0 104px;
+  padding: 34px 0 34px;
   color: var(--cream-strong);
   background: var(--green);
 }
@@ -902,6 +939,214 @@ svg {
 @media (max-width: 390px) {
   .product-grid,
   .catalog-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+.shop-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 160px;
+  padding: 24px;
+  border-radius: 8px;
+  background-image: var(--bg-img);
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.shop-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--green);
+  opacity: 0.65;
+  z-index: 1;
+}
+
+.shop-card-content {
+  position: relative;
+  z-index: 2;
+  color: var(--cream-strong);
+}
+
+.shop-card-content p {
+  color: rgba(255, 250, 240, 0.85);
+  margin-bottom: 8px;
+}
+
+.shop-card:hover, .shop-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 38px rgba(31, 95, 64, 0.32);
+}
+
+#delivery {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#delivery::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('assets/bali-map-bg.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 80%;
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.shop-fullscreen { display: flex; flex-direction: column; height: 100vh; padding-top: 80px; padding-bottom: 80px; gap: 12px; }
+@media(min-width: 981px) { .shop-fullscreen { flex-direction: row; padding-bottom: 24px; } }
+.shop-fullscreen .shop-card { flex: 1; min-height: 0; }
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.cat-card {
+  background: var(--cream-soft);
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--forest-dark);
+}
+.cat-card.active {
+  border-color: var(--forest-green);
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.cat-icon {
+  font-size: 24px;
+}
+.cat-card span {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+\n
+.veg-category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.veg-cat-card {
+  position: relative;
+  height: 100px;
+  border-radius: var(--radius);
+  border: 2px solid transparent;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.2s ease;
+}
+.veg-cat-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.1));
+}
+.veg-cat-card.active {
+  border-color: var(--forest-green);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.veg-cat-card span {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Scroll To Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 50px;
+  height: 50px;
+  background: var(--green);
+  color: var(--cream);
+  border: none;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.scroll-to-top svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+@media (max-width: 680px) {
+  .scroll-to-top {
+    bottom: 100px;
+    right: 16px;
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* Disabled Category Cards */
+button.veg-cat-card[disabled] {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: grayscale(80%);
+  pointer-events: none;
+}
+
+/* Coming Soon Badge */
+.coming-soon-badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  background: var(--mango);
+  color: var(--green-ink);
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  z-index: 10;
 }

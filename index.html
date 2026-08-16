@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header" data-header>
+    <header class="site-header header-light" data-header>
       <a class="brand" href="index.html" aria-label="BALI FRUITS home">
         <span class="brand-word">BALI FRUITS</span>
         <span class="brand-leaf" aria-hidden="true"></span>
       </a>
 
       <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="shop.html" data-i18n="navShop">Shop</a>
         <a href="#harvest" data-i18n="navHarvest">Today's Harvest</a>
         <a href="#boxes" data-i18n="navBoxes">Boxes</a>
         <a href="delivery.html" data-i18n="navDelivery">Delivery</a>
@@ -88,11 +89,11 @@
 
       <section class="category-band" aria-label="Fresh categories">
         <div class="section-inner category-grid">
-          <a class="category-chip active" href="#harvest" data-i18n="catFruits">Fruits</a>
-          <a class="category-chip" href="#harvest" data-i18n="catVegetables">Vegetables</a>
-          <a class="category-chip" href="#harvest" data-i18n="catHerbs">Herbs</a>
-          <a class="category-chip" href="#boxes" data-i18n="catBundles">Bundles</a>
-          <a class="category-chip" href="#harvest" data-i18n="catSpecials">Local Specials</a>
+          <a class="category-chip active" href="fruits.html" data-i18n="catFruits">Fruits</a>
+          <a class="category-chip" href="vegetables.html" data-i18n="catVegetables">Vegetables</a>
+          <a class="category-chip" href="vegetables.html" data-i18n="catHerbs">Herbs</a>
+          <a class="category-chip" href="boxes.html" data-i18n="catBundles">Bundles</a>
+          <a class="category-chip" href="fruits.html" data-i18n="catSpecials">Local Specials</a>
         </div>
       </section>
 
@@ -106,7 +107,7 @@
           </p>
         </div>
 
-        <div class="product-grid catalog-grid" data-catalog></div>
+        <div class="product-grid catalog-grid" data-catalog="fruits,vegetables"></div>
       </section>
 
       <section class="boxes-section" id="boxes">
@@ -120,7 +121,7 @@
           </div>
 
           <div class="box-list">
-            <article>
+            <article style="background-image: url('assets/box-01.png');">
               <span>01</span>
               <div>
                 <h3 data-i18n="boxOneTitle">Tropical Fruit Box</h3>
@@ -128,7 +129,7 @@
                 <p class="box-page-link" data-i18n="boxPageLink">View box page</p>
               </div>
             </article>
-            <article>
+            <article style="background-image: url('assets/box-02.png');">
               <span>02</span>
               <div>
                 <h3 data-i18n="boxTwoTitle">Family Produce Box</h3>
@@ -136,7 +137,7 @@
                 <p class="box-page-link" data-i18n="boxPageLink">View box page</p>
               </div>
             </article>
-            <article>
+            <article style="background-image: url('assets/box-03.png');">
               <span>03</span>
               <div>
                 <h3 data-i18n="boxThreeTitle">Greens & Smoothie Box</h3>
@@ -206,7 +207,7 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11 12 4l9 7v9H3z" /></svg>
         <span data-i18n="mobileHome">Home</span>
       </a>
-      <a href="#harvest">
+      <a href="shop.html">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14M5 12h14M5 18h14" /></svg>
         <span data-i18n="mobileShop">Shop</span>
       </a>
@@ -224,7 +225,7 @@
       </a>
     </nav>
 
-    <script src="cart.js"></script>
-    <script src="script.js"></script>
+    <script src="cart.js?v=5"></script>
+    <script src="script.js?v=5"></script>
   </body>
 </html>
