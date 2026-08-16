@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cesarenegro.github.io/balifruits/sitemap.xml
